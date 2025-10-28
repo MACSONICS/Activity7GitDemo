@@ -9,9 +9,11 @@ public class MyApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(MyApplication.class);
+
     }
 
     public static void main(String[] args) {
         org.springframework.boot.SpringApplication.run(MyApplication.class, args);
+        System.out.println("local is behind");
     }
 }
