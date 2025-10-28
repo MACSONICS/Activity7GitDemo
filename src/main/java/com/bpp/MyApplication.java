@@ -13,6 +13,7 @@ public class MyApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         org.springframework.boot.SpringApplication.run(MyApplication.class, args);
+        System.out.println("b4 exit");
         System.exit(0);
     }
 }
