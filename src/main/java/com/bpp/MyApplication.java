@@ -13,5 +13,6 @@ public class MyApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         org.springframework.boot.SpringApplication.run(MyApplication.class, args);
+        System.out.println("The remote branch cannot be ahead of local");
     }
 }
